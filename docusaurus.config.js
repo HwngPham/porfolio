@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Hung Quang's Blog",
   tagline: "Code are cool",
-  // favicon: "img/favicon.ico",
+  favicon: "https://github.com/HwngPham.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
@@ -59,10 +59,10 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "Hung Quang",
-        // logo: {
-        //   alt: "My Site Logo",
-        //   src: "img/logo.svg",
-        // },
+        logo: {
+          alt: "My Site Logo",
+          src: "https://github.com/HwngPham.png",
+        },
         items: [
           { to: "/", label: "Blogs", position: "left" },
           { to: "/docs/about-me", label: "About me", position: "left" },
